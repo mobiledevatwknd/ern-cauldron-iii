@@ -12,12 +12,23 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "pulsa-miniapp@0.0.2"
+                ],
+                "nativeDeps": [
+                  "ernnavigation-api-impl-native@1.6.10",
+                  "ernnavigation-api@1.3.0",
+                  "react-native-electrode-bridge@1.5.27",
+                  "react-native@0.66.4"
+                ],
+                "ernVersion": "0.49.1"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "f5b83808-684b-46ce-b49d-34bdaf35240f"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }
